@@ -8,6 +8,7 @@
     <link rel="shortcut icon" type="x-icon" href="./assets/images/f67ee1168559407.643d1fd34abed.png">
     <link rel="stylesheet" href="./assets/styles/swiper-bundle.min.css" />
     <link rel="stylesheet" href="./assets/styles/newcss.css" />
+    <link rel="stylesheet" href="./assets/styles/card.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link
       rel="stylesheet"
@@ -22,8 +23,9 @@
   <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9467128470827962"
      crossorigin="anonymous"></script>
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-WNDTZL8RDC"></script>
+
+
 <script>
-  
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
@@ -494,14 +496,34 @@
         </div>
       </section>
 
+
+
       <!--=================== Portfolio ===================-->
       <section class="portfolio section" id="portfolio">
+       
     <h2 class="section__title">Projects</h2>
     <span class="section__subtitle">Most recent work</span>
-
     <div class="portfolio__container container swiper-container">
       <div class="swiper-wrapper">
-         <!--=================== Portfolio ===================-->
+      <!--=================== Portfolio ===================-->
+        <div class="portfolio__content grid swiper-slide">
+              <img src="./assets/images/newsapp.png" class="portfolio__img">
+          <div class="portfolio__data">
+                <h3 class="portfolio__title">News Weibsite | Using MERN Stack </h3>
+                <p class="portfolio__description">I have developed a fully functional news website, handling all the backend development myself. For the frontend, I've utilized selected templates to expedite the process. </p>
+                <a href="https://github.com/AfsalMadathingal/newsapp" target="_blank" class="button button--flex button--small portfolio__button">
+                  Github 
+                  <i class="uil  fa-brands fa-github"></i>
+                </a>
+                <a href="https://thekeralanews.afsalmadathingal.online/" target="_blank" class="button button--flex button--small portfolio__button">
+                  Live
+                  <i class="fa-solid fa-globe"></i>
+                </a>
+          </div>
+        </div>
+     <!--=================== Portfolio ===================-->
+
+  <!--=================== Portfolio ===================-->
          <div class="portfolio__content grid swiper-slide">
           <img src="./assets/images/ecommerce.png" class="portfolio__img">
 
@@ -613,8 +635,6 @@
       <div class="swiper-pagination "></div>
     </div>
   </section>
-
-
       <!--===================== Contact Me =====================-->
       <section class="contact section" id="contact">
     <h2 class="section__title">Contact Me</h2>
